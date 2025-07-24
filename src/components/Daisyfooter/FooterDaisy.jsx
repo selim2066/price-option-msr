@@ -1,4 +1,9 @@
-<footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
+import React from 'react';
+
+const FooterDaisy = () => {
+    return (
+        <div>
+            <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
   <aside>
     <svg
       width="50"
@@ -56,3 +61,8 @@
     </div>
   </nav>
 </footer>
+        </div>
+    );
+};
+
+export default FooterDaisy;
