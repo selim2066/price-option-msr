@@ -7,6 +7,7 @@ function App() {
     <>
       <div style={{ backgroundColor: "white", minHeight: "100vh" }}>
         <DaisyNav></DaisyNav>
+        <Hero></Hero>
         <FooterDaisy></FooterDaisy>
         
       </div>
